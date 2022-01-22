@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeMoviesController" customModule="Moviesta" customModuleProvider="target">
             <connections>
+                <outlet property="catogeryCollection" destination="4cg-5R-Z8N" id="bPv-dP-PYK"/>
                 <outlet property="menuCollection" destination="K7w-aI-MdR" id="vo8-tK-4ll"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -39,12 +40,26 @@
                                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                     </collectionViewFlowLayout>
                                 </collectionView>
+                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="4cg-5R-Z8N">
+                                    <rect key="frame" x="0.0" y="115" width="375" height="93.5"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="TPM-HX-4m1">
+                                        <size key="itemSize" width="128" height="128"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                </collectionView>
                             </subviews>
                             <color key="backgroundColor" name="HomeColor"/>
                             <constraints>
+                                <constraint firstAttribute="trailing" secondItem="4cg-5R-Z8N" secondAttribute="trailing" id="O6L-42-l4t"/>
                                 <constraint firstAttribute="trailing" secondItem="K7w-aI-MdR" secondAttribute="trailing" id="O78-qX-PCD"/>
+                                <constraint firstItem="4cg-5R-Z8N" firstAttribute="height" secondItem="kav-A2-8kV" secondAttribute="height" multiplier="0.14" id="iWa-c7-yGz"/>
                                 <constraint firstItem="K7w-aI-MdR" firstAttribute="leading" secondItem="kav-A2-8kV" secondAttribute="leading" id="lY0-Du-W5G"/>
                                 <constraint firstItem="K7w-aI-MdR" firstAttribute="top" secondItem="kav-A2-8kV" secondAttribute="top" id="pOn-PD-JBR"/>
+                                <constraint firstItem="4cg-5R-Z8N" firstAttribute="leading" secondItem="kav-A2-8kV" secondAttribute="leading" id="siK-os-ulY"/>
+                                <constraint firstItem="4cg-5R-Z8N" firstAttribute="top" secondItem="K7w-aI-MdR" secondAttribute="bottom" constant="15" id="yjO-of-dld"/>
                             </constraints>
                         </view>
                     </subviews>

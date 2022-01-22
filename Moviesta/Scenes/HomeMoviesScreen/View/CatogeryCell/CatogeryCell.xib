@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CatogeryCell" customModule="Moviesta" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="241" height="104"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="241" height="104"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lzH-zf-aJH">
+                        <rect key="frame" x="5" y="5" width="231" height="94"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="eva-Cr-15u">
+                                <rect key="frame" x="15" y="34.5" width="201" height="25"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eva-Cr-15u" firstAttribute="leading" secondItem="lzH-zf-aJH" secondAttribute="leading" constant="15" id="03v-58-KVw"/>
+                            <constraint firstItem="eva-Cr-15u" firstAttribute="centerX" secondItem="lzH-zf-aJH" secondAttribute="centerX" id="CgI-go-MlQ"/>
+                            <constraint firstItem="eva-Cr-15u" firstAttribute="centerY" secondItem="lzH-zf-aJH" secondAttribute="centerY" id="mdC-2j-GeK"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="lzH-zf-aJH" secondAttribute="trailing" constant="5" id="5rG-Q4-cFy"/>
+                <constraint firstItem="lzH-zf-aJH" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="kTl-b6-89q"/>
+                <constraint firstAttribute="bottom" secondItem="lzH-zf-aJH" secondAttribute="bottom" constant="5" id="xaq-2Y-Jpd"/>
+                <constraint firstItem="lzH-zf-aJH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="zFX-W6-spF"/>
+            </constraints>
+            <size key="customSize" width="241" height="104"/>
+            <connections>
+                <outlet property="backView" destination="lzH-zf-aJH" id="KFE-86-a7b"/>
+                <outlet property="catogeryLabel" destination="eva-Cr-15u" id="e5e-np-1mD"/>
+            </connections>
+            <point key="canvasLocation" x="321" y="79"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

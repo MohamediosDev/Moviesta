@@ -10,8 +10,8 @@ target 'Moviesta' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'Alamofire'
-  pod 'JGProgressHUD'
   pod 'Kingfisher'
   pod 'SwiftMessages'
+
 
 end

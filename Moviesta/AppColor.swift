@@ -10,7 +10,7 @@ import Foundation
 
 enum AppColor {
     
-    case mainColor,fontColor,ButtonColor
+    case mainColor,fontColor,ButtonColor,borderColor
     
     var Color: UIColor {
         
@@ -22,6 +22,8 @@ enum AppColor {
             return UIColor(red: 18/255, green: 21/255, blue: 61/255, alpha: 1.0)
         case.ButtonColor:
             return UIColor(red: 254/255, green: 109/255, blue: 142/255, alpha: 1.0)
+        case .borderColor:
+            return UIColor(red: 18/255, green: 21/255, blue: 61/255, alpha: 0.6)
         }
     }
     

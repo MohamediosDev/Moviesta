@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeMoviesController.swift
 //  Moviesta
 //
 //  Created by SODA on 22/01/2022.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeMoviesController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .cyan
     }
 
 
 }
-

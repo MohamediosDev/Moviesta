@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		658D21AE13F9FD115BC3E013 /* Pods_Moviesta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC32F4C78663E6F491B24BF9 /* Pods_Moviesta.framework */; };
 		DFAFEE9F279C1DA0007B946F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFEE9E279C1DA0007B946F /* AppDelegate.swift */; };
 		DFAFEEA1279C1DA0007B946F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFEEA0279C1DA0007B946F /* SceneDelegate.swift */; };
-		DFAFEEA6279C1DA0007B946F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFAFEEA4279C1DA0007B946F /* Main.storyboard */; };
 		DFAFEEA8279C1DA4007B946F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFAFEEA7279C1DA4007B946F /* Assets.xcassets */; };
 		DFAFEEAB279C1DA4007B946F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFAFEEA9279C1DA4007B946F /* LaunchScreen.storyboard */; };
 		DFAFEEBC279C1F24007B946F /* HomeMoviesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFEEBA279C1F24007B946F /* HomeMoviesController.swift */; };
 		DFAFEEBD279C1F24007B946F /* HomeMoviesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFAFEEBB279C1F24007B946F /* HomeMoviesController.xib */; };
+		DFAFEEC0279C227B007B946F /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFEEBF279C227B007B946F /* AppColor.swift */; };
+		DFAFEEC4279C290D007B946F /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFEEC2279C290D007B946F /* MenuCollectionViewCell.swift */; };
+		DFAFEEC5279C290D007B946F /* MenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFAFEEC3279C290D007B946F /* MenuCollectionViewCell.xib */; };
+		DFAFEEC7279C4809007B946F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFEEC6279C4809007B946F /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC32F4C78663E6F491B24BF9 /* Pods_Moviesta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moviesta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB82D26987E9E3296815D13E /* Pods-Moviesta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moviesta.debug.xcconfig"; path = "Target Support Files/Pods-Moviesta/Pods-Moviesta.debug.xcconfig"; sourceTree = "<group>"; };
 		DFAFEE9B279C1DA0007B946F /* Moviesta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moviesta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFAFEE9E279C1DA0007B946F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFAFEEA0279C1DA0007B946F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DFAFEEA5279C1DA0007B946F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFAFEEA7279C1DA4007B946F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFAFEEAA279C1DA4007B946F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFAFEEAC279C1DA4007B946F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFAFEEBA279C1F24007B946F /* HomeMoviesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMoviesController.swift; sourceTree = "<group>"; };
 		DFAFEEBB279C1F24007B946F /* HomeMoviesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeMoviesController.xib; sourceTree = "<group>"; };
+		DFAFEEBF279C227B007B946F /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		DFAFEEC2279C290D007B946F /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFAFEEC3279C290D007B946F /* MenuCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCollectionViewCell.xib; sourceTree = "<group>"; };
+		DFAFEEC6279C4809007B946F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E197ABD480F43A3B3C1A30A9 /* Pods-Moviesta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moviesta.release.xcconfig"; path = "Target Support Files/Pods-Moviesta/Pods-Moviesta.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658D21AE13F9FD115BC3E013 /* Pods_Moviesta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6FF8650B1A9860EAF8173EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC32F4C78663E6F491B24BF9 /* Pods_Moviesta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DFAFEE92279C1D9F007B946F = {
 			isa = PBXGroup;
 			children = (
 				DFAFEE9D279C1DA0007B946F /* Moviesta */,
 				DFAFEE9C279C1DA0007B946F /* Products */,
+				F1875903D30CAE78CCE5529C /* Pods */,
+				C6FF8650B1A9860EAF8173EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,7 +81,7 @@
 			children = (
 				DFAFEEB2279C1DC3007B946F /* Core */,
 				DFAFEEB4279C1E00007B946F /* Scenes */,
-				DFAFEEA4279C1DA0007B946F /* Main.storyboard */,
+				DFAFEEBE279C225D007B946F /* HelperFile */,
 				DFAFEEB3279C1DEC007B946F /* SupportFiles */,
 				DFAFEEAC279C1DA4007B946F /* Info.plist */,
 			);
@@ -113,6 +134,7 @@
 		DFAFEEB7279C1EE1007B946F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DFAFEEC1279C28D3007B946F /* MenuCollectionViewCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -121,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				DFAFEEB9279C1EFF007B946F /* Controller */,
+				DFAFEEC6279C4809007B946F /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -134,6 +157,32 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		DFAFEEBE279C225D007B946F /* HelperFile */ = {
+			isa = PBXGroup;
+			children = (
+				DFAFEEBF279C227B007B946F /* AppColor.swift */,
+			);
+			name = HelperFile;
+			sourceTree = "<group>";
+		};
+		DFAFEEC1279C28D3007B946F /* MenuCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DFAFEEC2279C290D007B946F /* MenuCollectionViewCell.swift */,
+				DFAFEEC3279C290D007B946F /* MenuCollectionViewCell.xib */,
+			);
+			path = MenuCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		F1875903D30CAE78CCE5529C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB82D26987E9E3296815D13E /* Pods-Moviesta.debug.xcconfig */,
+				E197ABD480F43A3B3C1A30A9 /* Pods-Moviesta.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFAFEEAF279C1DA4007B946F /* Build configuration list for PBXNativeTarget "Moviesta" */;
 			buildPhases = (
+				C0574EF8FC322B0DEB1B656C /* [CP] Check Pods Manifest.lock */,
 				DFAFEE97279C1DA0007B946F /* Sources */,
 				DFAFEE98279C1DA0007B946F /* Frameworks */,
 				DFAFEE99279C1DA0007B946F /* Resources */,
+				3437A561B8D5A19BB5BE7537 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,11 +246,53 @@
 				DFAFEEAB279C1DA4007B946F /* LaunchScreen.storyboard in Resources */,
 				DFAFEEBD279C1F24007B946F /* HomeMoviesController.xib in Resources */,
 				DFAFEEA8279C1DA4007B946F /* Assets.xcassets in Resources */,
-				DFAFEEA6279C1DA0007B946F /* Main.storyboard in Resources */,
+				DFAFEEC5279C290D007B946F /* MenuCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3437A561B8D5A19BB5BE7537 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moviesta/Pods-Moviesta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moviesta/Pods-Moviesta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moviesta/Pods-Moviesta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0574EF8FC322B0DEB1B656C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moviesta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DFAFEE97279C1DA0007B946F /* Sources */ = {
@@ -207,22 +300,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFAFEEBC279C1F24007B946F /* HomeMoviesController.swift in Sources */,
+				DFAFEEC7279C4809007B946F /* HomeViewModel.swift in Sources */,
+				DFAFEEC0279C227B007B946F /* AppColor.swift in Sources */,
 				DFAFEE9F279C1DA0007B946F /* AppDelegate.swift in Sources */,
 				DFAFEEA1279C1DA0007B946F /* SceneDelegate.swift in Sources */,
+				DFAFEEC4279C290D007B946F /* MenuCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DFAFEEA4279C1DA0007B946F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DFAFEEA5279C1DA0007B946F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DFAFEEA9279C1DA4007B946F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -352,6 +440,7 @@
 		};
 		DFAFEEB0279C1DA4007B946F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB82D26987E9E3296815D13E /* Pods-Moviesta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -378,6 +467,7 @@
 		};
 		DFAFEEB1279C1DA4007B946F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E197ABD480F43A3B3C1A30A9 /* Pods-Moviesta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
